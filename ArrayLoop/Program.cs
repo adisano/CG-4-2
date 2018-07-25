@@ -6,7 +6,13 @@ namespace ArrayLoop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] myArray = new int[] {1, 1, 2, 3, 5, 8};
+
+            foreach (int myNumbers in myArray)
+            {
+                Console.WriteLine(myNumbers);
+            }
+            Console.ReadLine();
         }
     }
 }
